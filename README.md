@@ -109,4 +109,13 @@ The complexity of this procedure is considerable is ![equation](https://latex.co
 
 * Unzip the downloaded file.
 * Modify line 5 of the ``main.py`` file where the path for reading the plain text files is located.
+<p align="center">
+  <img src="https://github.com/gabrielgt99/Employees-Company-ACME/blob/main/assets/code_original.png" >
+</p>
+<p align="center">
+  <img src="https://github.com/gabrielgt99/Employees-Company-ACME/blob/main/assets/code_edited.png" >
+</p>
 * Run the command ``python main.py`` from the project location.
+<p align="center">
+  <img src="https://github.com/gabrielgt99/Employees-Company-ACME/blob/main/assets/run_terminal.png" >
+</p>
