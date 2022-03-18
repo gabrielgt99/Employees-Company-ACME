@@ -120,3 +120,6 @@ The complexity of this procedure is considerable is ![equation](https://latex.co
 <p align="center">
   <img src="https://github.com/gabrielgt99/Employees-Company-ACME/blob/main/assets/run_terminal.png" >
 </p>
+
+***Note:***
+If you want to change the test cases edit the ``case1.txt`` file.
