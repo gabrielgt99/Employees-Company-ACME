@@ -26,7 +26,7 @@ You can include the data from our examples below:
 
 ## Structure
 
-### File Structure
+### Directory
 
 ```bash
 .
@@ -53,6 +53,12 @@ The program consists of:
 
 Read a text file with the input data, with the text file the ``Person`` object is created for each person and inside it is assigned the name of the person and an array of **size 7** with (each one of the days of the week) containing the start date and the end date initialized to -1.
 
+
+<p align="center">
+  <img src="https://mermaid.ink/img/pako:eNptkcEKwjAMhl-l5KSoLzA86s2D4NGJhDXOwtZKkx5E9-5Gt6mb5hS-fCU_6Q2KYAkyKCpkXjksI9a5N1pbihy8Wd4XC7PCawtfWje6tciY2U6i86XxWNOb6RM2G8ey1-7wxiXJ8elNpgNk1f5C_GvxyGq-A-mKTxrnxTh_PIcUBywkGcLn4k4cxenV0f5fmf_ITT9tC-ZQU6zRWT3zK2UOciY9FWTaWjphqiSH3DeqpotFobV1EiJkJ6yY5oBJwu7qC8gkJuql7rc6q3kAq7aNIA">
+</p>
+
+
 To avoid saving the day of the week, the index of the ``Day`` object array found inside each ``Person`` object is used, which will later be stored ordered by means of a dictionary.
 
 ```python
@@ -69,9 +75,20 @@ days_id = {
 
 In order to compare an hour, it is considered to **normalize the hh:mm format to minutes only.**
 
+| Original | Process | Final |
+| --- | --- | --- |
+| 9:50 | ![equation](https://latex.codecogs.com/svg.image?9&space;hours&space;*&space;60&space;&plus;&space;50&space;minutes) | 590 minutes |
+
 The information collected from the plain text file is segmented by certain characters or keywords (":", "=", line breaks, abbreviations, etc.) and stored in the ``Person`` object.
 
 Finally, a comparison is made all against all (the employees), accessing each object and comparing all the days of the week one by one. 
+
+```mermaid
+  graph TD;
+      RENE-->ASTRID;
+      RENE-->ANDRES;
+      ASTRID-->ANDRES;
+```
 
 The comparison of working times consists of:
 
@@ -81,4 +98,6 @@ The comparison of working times consists of:
 
 During the comparison process between people, if there is any coincidence of time, the name of the people is taken into account and a consecutive number is taken for each coincidence, to finally present it on the screen.
 
-The complexity of this procedure is considerable is O(n^2).
+The complexity of this procedure is considerable is ![equation](https://latex.codecogs.com/svg.image?O(n^2)).
+
+![Big O](assets/big_o.png?raw=true "Title")
