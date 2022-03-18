@@ -2,7 +2,7 @@ from obj.Person import Person
 
 def readData(name_file):
 	# Read files
-	file = open('/home/runner/Prueba-Tecnica/data/{}.txt'.format(name_file),'r')
+	file = open('/home/runner/Employees-Company-ACME/data/{}.txt'.format(name_file),'r')
 	case = file.read()
 	file.close()
 	return case
@@ -45,12 +45,15 @@ def dataCleaning(case, persons):
 
 def checkSchedule(persons, id1, id2):
 	coincidences = 0
-	
+
+	# 7 days a week loop for each employee
 	for i in range(7):
 		personA = persons[id1].get_day(i)
 		personB = persons[id2].get_day(i)
 	
-		# determinar cual de las dos personas inicio primero
+		# Determine if the employee is working that day
+		# Identify which of the two employees started first
+		# Subtraction, to determine if the two employees can meet
 		if(personA[0] != -1 and personA[1] != -1 and personB[0] != -1 and personB[1] != -1):
 			if(personA[0] < personB[0]):
 				if(personA[1] - personB[0] > 0):
@@ -62,11 +65,12 @@ def checkSchedule(persons, id1, id2):
 
 def main():
 
+	# Read text file, find the number of employees
 	case1 = readData('case1')
 	cases1_len = len(case1.split('\n'))
 	
-	case2 = readData('case2')
-	cases2_len = len(case2.split('\n'))
+	# case2 = readData('case2')
+	# cases2_len = len(case2.split('\n'))
 
 	persons = []
 
