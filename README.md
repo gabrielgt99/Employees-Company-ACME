@@ -99,3 +99,14 @@ The complexity of this procedure is considerable is ![equation](https://latex.co
 <p align="center">
   <img src="https://github.com/gabrielgt99/Employees-Company-ACME/blob/main/assets/big_o.png">
 </p>
+
+## Execution
+
+* Download the repository from GitHub.
+<p align="center">
+  <img src="https://github.com/gabrielgt99/Employees-Company-ACME/blob/main/assets/local.png" width="350">
+</p>
+
+* Unzip the downloaded file.
+* Modify line 5 of the ``main.py`` file where the path for reading the plain text files is located.
+* Run the command ``python main.py`` from the project location.
