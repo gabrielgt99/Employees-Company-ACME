@@ -115,6 +115,7 @@ The complexity of this procedure is considerable is ![equation](https://latex.co
 <p align="center">
   <img src="https://github.com/gabrielgt99/Employees-Company-ACME/blob/main/assets/code_edited.png" >
 </p>
+
 * Run the command ``python main.py`` from the project location.
 <p align="center">
   <img src="https://github.com/gabrielgt99/Employees-Company-ACME/blob/main/assets/run_terminal.png" >
