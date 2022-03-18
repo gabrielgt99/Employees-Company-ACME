@@ -44,7 +44,9 @@ You can include the data from our examples below:
 1. The first ``Day`` object contains the start and end information for an employee on a given day.
 2. The second ``Person`` object contains the name and an array of size 7 with ``Day`` objects.
 
-AQUI VA UNA IMAGEN!!!!!!!!!!!!!
+<p align="center">
+  <img src="https://mermaid.ink/img/pako:eNptkcEKwjAMhl-l5KSoLzA86s2D4NGJhDXOwtZKkx5E9-5Gt6mb5hS-fCU_6Q2KYAkyKCpkXjksI9a5N1pbihy8Wd4XC7PCawtfWje6tciY2U6i86XxWNOb6RM2G8ey1-7wxiXJ8elNpgNk1f5C_GvxyGq-A-mKTxrnxTh_PIcUBywkGcLn4k4cxenV0f5fmf_ITT9tC-ZQU6zRWT3zK2UOciY9FWTaWjphqiSH3DeqpotFobV1EiJkJ6yY5oBJwu7qC8gkJuql7rc6q3kAq7aNIA">
+</p>
 
 
 ## Code Explanation
@@ -52,12 +54,6 @@ AQUI VA UNA IMAGEN!!!!!!!!!!!!!
 The program consists of:
 
 Read a text file with the input data, with the text file the ``Person`` object is created for each person and inside it is assigned the name of the person and an array of **size 7** with (each one of the days of the week) containing the start date and the end date initialized to -1.
-
-
-<p align="center">
-  <img src="https://mermaid.ink/img/pako:eNptkcEKwjAMhl-l5KSoLzA86s2D4NGJhDXOwtZKkx5E9-5Gt6mb5hS-fCU_6Q2KYAkyKCpkXjksI9a5N1pbihy8Wd4XC7PCawtfWje6tciY2U6i86XxWNOb6RM2G8ey1-7wxiXJ8elNpgNk1f5C_GvxyGq-A-mKTxrnxTh_PIcUBywkGcLn4k4cxenV0f5fmf_ITT9tC-ZQU6zRWT3zK2UOciY9FWTaWjphqiSH3DeqpotFobV1EiJkJ6yY5oBJwu7qC8gkJuql7rc6q3kAq7aNIA">
-</p>
-
 
 To avoid saving the day of the week, the index of the ``Day`` object array found inside each ``Person`` object is used, which will later be stored ordered by means of a dictionary.
 
