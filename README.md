@@ -101,3 +101,8 @@ During the comparison process between people, if there is any coincidence of tim
 The complexity of this procedure is considerable is ![equation](https://latex.codecogs.com/svg.image?O(n^2)).
 
 ![Big O](assets/big_o.png?raw=true "Title")
+
+
+<p align="center">
+  <img src="https://github.com/gabrielgt99/Employees-Company-ACME/blob/main/assets/big_o.png">
+</p>
