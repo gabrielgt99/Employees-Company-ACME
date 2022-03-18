@@ -90,7 +90,7 @@ The comparison of working times consists of:
 
 1. Determine that the data to compare is NOT -1, it means that the employee that day is working.
 2. Identify which of the two people started the working day first.
-3. Difference between the end time of the person who started the workday first and the start time of the person who started the workday later, if the subtraction is positive, it means that if you can have a meeting between employees, otherwise not.
+3. Difference between the end time of the person who started the workday first and the start time of the person who started the workday later, if the subtraction is positive, it means that if you can have a meeting between employees, otherwise not ![equation](https://latex.codecogs.com/svg.image?(outPersonA&space;-&space;inPersonB)&space;\vee&space;(outPersonB&space;-&space;inPersonA)).
 
 During the comparison process between people, if there is any coincidence of time, the name of the people is taken into account and a consecutive number is taken for each coincidence, to finally present it on the screen.
 
