@@ -2,7 +2,7 @@ from obj.Person import Person
 
 def readData(name_file):
 	# Read files
-	file = open('/home/runner/Employees-Company-ACME/data/{}.txt'.format(name_file),'r')
+	file = open(r'/home/runner/Employees-Company-ACME/data/{}.txt'.format(name_file),'r')
 	case = file.read()
 	file.close()
 	return case
